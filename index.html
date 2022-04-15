@@ -694,25 +694,12 @@
                                             <p>In this project, we study the correlation between the product reviews and
                                                 the rating of the products given by the
                                                 customers.</p>
-                                            <form class="zform">
-                                                <input type="hidden" name="to" value="username@domain.extension" />
-                                                <div class="form-group">
-                                                    <label class="ls text-uppercase mb-0">Name</label>
-                                                    <input class="form-control" type="text" name="name" placeholder=""
-                                                        required="required" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="ls text-uppercase mb-0">Choose Model</label>
-                                                    <input class="form-control" type="" name="email" placeholder=""
-                                                        required="required" />
-                                                </div>
-                                                <div class="form-group">
-                                                    <label class="ls text-uppercase mb-0">Result</label>
-                                                    <textarea class="form-control" rows="4" name="message"
-                                                        placeholder="" required="required"></textarea>
-                                                </div>
-                                                <div class="zform-feedback"></div>
-                                                <button class="btn btn-block btn-warning mt-4"
+                                            <form class="sentiment-form">
+                                                <label class="ls text-uppercase mb-0">Sentence</label>
+                                                <input class="form-control" type="text" name="sentence"
+                                                    placeholder="sentence" required />
+                                                <div class="loader"></div>
+                                                <button class="btn btn-block btn-warning mt-4 submit-form"
                                                     type="submit">Submit</button>
                                             </form>
                                         </div>
@@ -797,6 +784,7 @@
         async></script>
     <script src="assets/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/api.js"></script>
 
 </body>
 
