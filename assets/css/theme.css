@@ -14924,3 +14924,13 @@ a.text-white:hover, a.text-white:focus {
 }
 
 /*# sourceMappingURL=theme.css.map */
+
+#sentiment-container{
+  transition: all 1s ease-in;
+  margin-top: 2%;
+}
+.invisiblity{
+  opacity: 0;
+  display: none;
+  /* display: none; */
+}
